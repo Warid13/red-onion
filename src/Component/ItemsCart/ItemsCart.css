@@ -1,0 +1,26 @@
+.review-items{
+    display: flex;
+    border: 1px solid lightgray;
+    width: 90%;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    height: 120px;
+    
+}
+.review-items-1{
+    display: flex;
+}
+.image img{
+    width: 100px;
+    margin-left: 10px;
+    margin-right: 25px;
+}
+.btn{
+    margin-left: 80px;
+}
+.btn button{
+    border: none;
+    background: white;
+    color: red;
+    font-size: 20px;
+}

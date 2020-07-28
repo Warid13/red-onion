@@ -1,0 +1,46 @@
+.back{
+    background: #FCF4E0;
+}
+.banner{
+	background-image: url('../../images/ICON/bannerbackground.png');
+  width: 100%;
+  height: 500px;
+  background-position: center center;
+  background-size: cover;
+
+}
+.banner-body {
+	padding: 160px 0;
+}
+.banner-body h2{
+	font-size: 50px;
+	padding-bottom: 15px;
+}
+.banner-form input {
+	padding: 10px 30px;
+	border-radius: 30px;
+	border: none;
+	width: 35%;
+}
+
+.banner-form button {
+	padding: 6px 30px;
+    margin-left: -35px;
+    border: 1px solid;
+    border-radius: 20px;
+    background: #F91944;
+}
+@media(max-width: 500px){
+  .banner-body {
+    padding: 20px 0;
+}
+.banner-body h2{
+  font-size: 28px;
+}
+.banner {
+
+  height: 300px;
+  background-position: center center; 
+  background-size: cover;
+}
+}

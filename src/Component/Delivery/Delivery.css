@@ -1,0 +1,45 @@
+.delivery-body{
+    display: flex;
+}
+.delivery-map{
+padding: 50px;
+}
+.delivery-map img{
+    width: 90%;
+}
+.delivery-time{
+ background: lightgrey;
+ margin : 50px;
+ border-radius: 20px;
+}
+.delivery-time-img1 img{
+    width: 40%;
+    margin-top: 10px;
+}
+.delivery-location-details{
+    background: white;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 10px;
+}
+.time{
+    margin-left: 20px;
+}
+.delivery-driver{
+    display: flex;
+    background: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+}
+.driver-img{
+    width: 20%;
+}
+.driver-img img{
+    width: 90%;
+    margin-left: 10px;
+}
+.driver-name h4,p{
+    margin-left: 20px;
+    margin-top: 10px;
+}

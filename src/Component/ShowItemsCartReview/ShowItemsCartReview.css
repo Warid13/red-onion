@@ -1,0 +1,55 @@
+.order-food-review{
+    border: none;
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+    margin-right: 30px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #F91944;
+    border-color: #F91944;
+    width: 97%;
+    margin-left: 1px;
+}
+.items-cart-body{
+    display: flex;
+    margin-top: 40px;
+}
+.form{
+ width: 100%;
+
+
+}
+.form input{
+    display: block;
+    width: 80%;
+    margin-top: 15px;
+    background: #F5F5F5;
+    border:none;
+    padding: 5px;
+    border-radius: 5px;
+}
+.form-body{
+    padding: 20px;
+    margin-left: 60px;
+}
+.hr{
+    background-color: black;
+    margin-right: 110px;
+    
+}
+.err{
+    color:red;
+}
+.details-btn{
+  
+    width: 80%;
+    margin-top: 15px;
+    background:  #F91944;
+    border:none;
+    padding: 5px;
+    border-radius: 5px;
+
+}

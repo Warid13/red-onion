@@ -1,0 +1,52 @@
+.item-body{
+    margin: 50px;
+}
+.cart-style{
+    padding:50px
+}
+.food-menu span{
+    margin-left: 5px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: pointer;
+}
+.food-menu span:hover{
+    border-bottom: 6px solid #F91944;
+    border-radius: 4px;
+
+}
+/* .lunch-span{
+    border-bottom: 6px solid #F91944;
+    border-radius: 4px;
+} */
+.check-buttn{
+    margin-left: 43%;
+    border: none;
+    background: #CECECE;
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: white;
+}
+.active {
+    border-bottom: 6px solid #e51a4b;
+    border-radius: 4px;
+    color: #e51a4b;
+  }
+  .btn:focus {
+    outline: none !important;
+    box-shadow: none;
+  }
+  .btn:hover {
+    color: #da0839;
+}
+
+@media(max-width: 500px){
+    .check-buttn {
+        margin-left: 40px;
+        border: none;
+        background: #CECECE;
+        padding: 10px 20px;
+        border-radius: 8px;
+        color: white;
+    }
+}

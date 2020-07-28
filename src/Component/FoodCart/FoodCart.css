@@ -1,0 +1,8 @@
+.my-card{
+    /* width: 80%; */
+    text-align: center;
+    border: none;
+}
+.my-card:hover{
+    box-shadow: 5px 5px 10px lightgrey;
+}

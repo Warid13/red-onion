@@ -1,0 +1,43 @@
+.page-footer{
+    background: #191919;
+    margin-top: 20px;
+    
+}
+.footer-brand{
+    color: #E91948;
+}
+.btn-outline{
+    color: white;
+    border: 2px solid #ffffff;
+    padding: 10px;
+    border-radius: 30px;
+    margin-left: 10px;
+}
+.list-unstyled-2{
+    color: white;
+    margin-bottom: 30px;
+}
+.footer-copyright {
+    background: #1C2331;
+    color: white;
+    margin-top: -10px;
+}
+.list-unstyled a{
+    color: white;
+}
+.list-unstyled a:hover{
+    text-decoration: none;
+    color: teal;
+}
+
+
+@media(max-width: 500px){
+    .footer-brand{
+        color: #E91948;
+        font-size: 16px;
+    }
+    .page-footer img{
+        width: 50% !important;
+        margin-bottom: 10px !important;
+    }
+}

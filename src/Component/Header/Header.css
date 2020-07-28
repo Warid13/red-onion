@@ -1,0 +1,49 @@
+.logo img{
+    width: 30%;
+    width: 23%;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+    background: #FCF4E0;
+}
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+    padding-right: 35px;
+    
+}
+.my-button{
+    background: red;
+    padding: 10px 20px;
+    border-radius: 24px;
+}
+.nav-item a{
+    text-decoration: none;
+    color: black;
+}
+.nav-item a:hover{
+    text-decoration: none;
+   
+}
+.signup-button{
+    background: red;
+    padding: 10px 20px;
+    border-radius: 24px;
+    border: none;
+}
+
+@media(max-width: 500px){
+    .navbar-light .navbar-brand {
+        color: rgba(0,0,0,.9);
+        width: 93%;
+        margin-left: -50px;
+    }
+}
