@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import logo from '../../images/ICON/logo2.png';
+import logo from '../../images/ICON/logo2-removebg-preview.png';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCoffee, faShoppingCart } from '@fortawesome/free-solid-svg-icons'

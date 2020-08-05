@@ -44,7 +44,7 @@ export const PrivateRoute = ({ children, ...rest }) => {
 
 
 
-//*** Created Function******************* */
+//*** Created Function********************/`
 
 
 //*************Editing Start****************/
@@ -71,17 +71,6 @@ const Auth = () => {
   }, [])
 
     const provider = new firebase.auth.GoogleAuthProvider();
-
-    // const handleChange = event =>{
-    //   // console.log(event.target.name,event.target.value);
-    //   const newUserInfo = {
-    //       ...user
-    //   };
-    //   newUserInfo[event.target.name] = event.target.value;
-    //   console.log(newUserInfo);
-    //   setUser(newUserInfo);
-    // };
-
     const signInWithGoogle = () => {
         //*****************/ sign in with popup Start ************************
         return firebase.auth().signInWithPopup(provider)
@@ -103,54 +92,6 @@ const Auth = () => {
         })
         //*****************/ sign in with popup End ************************
     }
-
-    // const createAccount = (e) => {
-    //   // if (user.isValid) {
-    //     firebase.auth().createUserWithEmailAndPassword(user.email, user.password)
-    //     .then(res => {
-    //       const { displayName, password, email } = res.user;
-    //       const signedInUser = {
-    //         isSignedIn: true,
-    //         name: user.name,
-    //         email: email,
-    //         photo: password
-    //       }
-    //       setUser(signedInUser);
-    //       console.log(displayName, password, email);
-    //     })
-    //     .catch(err => {
-    //       console.log(err);
-    //       console.log(err.message);
-    //     })
-    //     console.log(user.email, user.password);
-    //   // }
-    //   e.preventDefault();
-    //   e.target.reset();
-    // }
-
-    // const signInUser = e => {
-    //   // if (user.isValid) {
-    //     firebase.auth().signInWithEmailAndPassword(user.email, user.password)
-    //      .then(res => {
-    //       const { displayName, password, email } = res.user;
-    //       const signedInUser = {
-    //         isSignedIn: true,
-    //         name: displayName,
-    //         email: email,
-    //         password: password
-    //       }
-    //       setUser(signedInUser);
-    //       console.log(displayName, password, email);
-    //     })
-    //     .catch(err => {
-    //       console.log(err);
-    //       console.log(err.message);
-    //     })
-    //     // console.log(user.email, user.password);
-    //   // }
-    //   e.preventDefault();
-    //   e.target.reset();
-    // }
 
 
     // ************************start*****************

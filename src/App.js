@@ -91,7 +91,7 @@ function App() {
             
               <Login></Login>
             </Route>
-            <Route path="/l">
+            <Route path="/login">
               <LoginAccount></LoginAccount>
             </Route>
             {/* <Route path="/loginAccount">
