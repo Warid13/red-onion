@@ -19,8 +19,10 @@
     margin-left: 80px;
 }
 .btn button{
+    position: absolute;
+    right: 112px;
     border: none;
     background: white;
-    color: red;
+    color: #000;
     font-size: 20px;
 }
